@@ -5,7 +5,7 @@ const port = process.env.PORT || 5001;
 
 // Configure CORS to allow only a specific origin
 const corsOptions = {
-  origin: 'http://192.168.1.6:3000', // change this to your frontend's origin
+  origin: 'https://my-frontend-three-blond.vercel.app/', // change this to your frontend's origin
   optionsSuccessStatus: 200 // for legacy browser support
 };
 
